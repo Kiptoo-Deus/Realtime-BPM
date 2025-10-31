@@ -1,0 +1,3 @@
+[submodule "core/aubio"]
+	path = core/aubio
+	url = https://github.com/aubio/aubio
