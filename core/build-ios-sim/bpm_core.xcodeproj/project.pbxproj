@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		49533C67AA811B5C6AFB95B9 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1492F6EAF3CF47B18A757753 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 6A27869396844BE89B7E9884 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				B99BE018FF12E3CB7ADF9035 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				D085A7AD0ACE49558A0D9B38 /* PBXTargetDependency */,
-				A3C915B64C5E43AB917DB8D0 /* PBXTargetDependency */,
+				E4B268CCD9E746C7A505381D /* PBXTargetDependency */,
+				BD25574DFC15430FA5EB8DE6 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		F0F97EB5417F0AA0808A5833 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3C99D3ED862B42EEA1CB3953 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = C56D7E79DDB84194938134A3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				A0E063E54E16B934EC10B469 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,128 +34,128 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		00D40B8D31BD47F78C6442F5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 713A98EFE00E45EEAB67632B /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */; };
-		01B478A7AEEB4B7AADC7B661 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */ = {isa = PBXBuildFile; fileRef = FFD5CF151A284F1E883575DE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */; };
-		02CFD62B5C9944DCBB289335 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */ = {isa = PBXBuildFile; fileRef = E5A2EE0AAF13421085EB8E3B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */; };
-		0505D75770BC4F4F8B75300C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */ = {isa = PBXBuildFile; fileRef = 2E92543A04244713B20994C4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */; };
-		0B692A473EF3429A833D7730 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */ = {isa = PBXBuildFile; fileRef = BBB5E7D05236415DBC640EBD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */; };
-		0FC15A0DCBB040D892B6B34B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */ = {isa = PBXBuildFile; fileRef = AA083999E1AF40CD817D4D8B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */; };
-		1854B66FEB00410BB8AECF09 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */ = {isa = PBXBuildFile; fileRef = 2EE415EE3FB84AE3943E2E20 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */; };
-		19351A257AD8487AAC630595 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */ = {isa = PBXBuildFile; fileRef = E39F6E477EFF414ABB92E264 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */; };
-		238F71DD566B4973B6C7626B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */ = {isa = PBXBuildFile; fileRef = C1AB43F04A5E41FEB197CE38 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */; };
-		267663F142D64A95944615F4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */ = {isa = PBXBuildFile; fileRef = 38C9ECB2D0914476960854E6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */; };
-		274BFDF24C8A44D19485097D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */ = {isa = PBXBuildFile; fileRef = 3E3903091BA248679DB38263 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */; };
-		27663F7C0E6244D1A0BCFCC7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */ = {isa = PBXBuildFile; fileRef = B63C76BB9BB6433180F4F232 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */; };
-		2BB8DFA777D44FA98FD1ED88 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */ = {isa = PBXBuildFile; fileRef = FA88C7B2F0DA49D4A3F7FE56 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */; };
-		34306087FCE741928BFA3C4C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */ = {isa = PBXBuildFile; fileRef = 95D66777EEBF4BACB8BCF9E0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */; };
-		3A6643B5F09446FB9C87441D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */ = {isa = PBXBuildFile; fileRef = 69898F0DC2E6480C9F0C3C5A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */; };
-		3E9E77628ED74BFFBFA30A85 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */ = {isa = PBXBuildFile; fileRef = 54FE794601D64DFDA6352745 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */; };
-		466DA26D8C67494B8EAB812D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */ = {isa = PBXBuildFile; fileRef = 58B86BC72FA346939D089FEA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */; };
-		46E0EA704C3D49ECAD7A8CB9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */ = {isa = PBXBuildFile; fileRef = E90858E1D6DA45BA8AE9928E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */; };
-		47312400C619467EAB65ABF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */ = {isa = PBXBuildFile; fileRef = 0CAEFFA5014144479B926AD8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */; };
-		5182E0B33B724BDB9EE4BB30 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */ = {isa = PBXBuildFile; fileRef = 169513F925B74AC4A508744E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */; };
-		52612C73F90D4A54BCBB78E4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */ = {isa = PBXBuildFile; fileRef = 1B2A40FC0DA34905B06B4EC4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */; };
-		5436A399D5F647DC8A4E0C3C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */ = {isa = PBXBuildFile; fileRef = DBB9F8A720AF42CC86D0C8A5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */; };
-		549DE3A7AC9D47D79D928577 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */ = {isa = PBXBuildFile; fileRef = E6246E278C5243EE92D18398 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */; };
-		5836455165894835BDDDED32 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */ = {isa = PBXBuildFile; fileRef = C5EAAE48912C4F73A7053E6D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */; };
-		58A9AED4ACE14DC1B59E8760 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */ = {isa = PBXBuildFile; fileRef = 00EFA87AF42B4E249FFB5CBA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */; };
-		596DC23E7A7E47648EC36354 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */ = {isa = PBXBuildFile; fileRef = 6859FCA81371475AA991630B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */; };
-		61DEFDAE9F4F40E0A84F0497 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */ = {isa = PBXBuildFile; fileRef = CDD0CB79AB4C414D88AB5280 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */; };
-		65EF1A41D78D494FA89C240D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */ = {isa = PBXBuildFile; fileRef = FA84C5F285A142228FA52CD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */; };
-		68D1736B3AC84531AC495505 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */ = {isa = PBXBuildFile; fileRef = 0A15217AFF3147FC80896734 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */; };
-		699AD35E64B24B77BF5B500D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */ = {isa = PBXBuildFile; fileRef = 28CECA3488864826A7C46B40 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */; };
-		69DC62E4BF4C4030BF031AAD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */ = {isa = PBXBuildFile; fileRef = 01BD5B49EDE740218231553B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */; };
-		6DEF69AF9EE2416B980963C6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */ = {isa = PBXBuildFile; fileRef = 43207C1E86824F67B59A9D9E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */; };
-		74ABC8C2984741C299426002 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */ = {isa = PBXBuildFile; fileRef = 5AE79C17846A45D38482A97F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */; };
-		797E76153B5C4A57A84CCD37 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */ = {isa = PBXBuildFile; fileRef = 79096E003CD14C85BB7F628B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */; };
-		7F079743D8CD4705A813A9E2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */ = {isa = PBXBuildFile; fileRef = 736CDE4516074275BB0E829F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */; };
-		8236F1F3602D41869101E305 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */ = {isa = PBXBuildFile; fileRef = DFAE14830D9C4880AEBDA14F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */; };
-		8593B47F70604892A6071211 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */ = {isa = PBXBuildFile; fileRef = D4D46BA9F9344E089029793D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */; };
-		875808CAA58C4D06B6CFCFB4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */ = {isa = PBXBuildFile; fileRef = 99E9BA350B794330A8979AAD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */; };
-		8E03FADFBE5B4BFFBEA684DD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */ = {isa = PBXBuildFile; fileRef = E82852047C7B4B06A9972CA7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */; };
-		8E278D7E4C19402B8A4A9154 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */ = {isa = PBXBuildFile; fileRef = 1CC8B780570C472BACC65634 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */; };
-		8FA32E9194CB430792BC25F1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */ = {isa = PBXBuildFile; fileRef = 62355E1F89484AAF8D46DB2E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */; };
-		9063DC0050214A7BADE3DDC8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */ = {isa = PBXBuildFile; fileRef = C8AB60FDE69E41ABBE505FA6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */; };
-		977B014A247D4C17823F3D14 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */ = {isa = PBXBuildFile; fileRef = B48F91D4E7834AEF93B58357 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */; };
-		9C4E2EB1289D4B46B887AF3E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */ = {isa = PBXBuildFile; fileRef = 4134677B7F9F464CB3BA06B8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */; };
-		9D19741CE5F9459AB08FDE36 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */ = {isa = PBXBuildFile; fileRef = 0D1986C829CC44388492EAF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */; };
-		A376264A183F44C3BE99A810 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */ = {isa = PBXBuildFile; fileRef = 4D5A56410C45471C99FEA6D7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */; };
-		A486596785854655A0BB18F1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */ = {isa = PBXBuildFile; fileRef = F3BCCBE8BBD544A88E617799 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */; };
-		A6B5F465A3594BC9949D5CC8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */ = {isa = PBXBuildFile; fileRef = 2A32534DF4834A9B8A6EFC78 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */; };
-		AB02E7A7E3554A36AD95F104 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */ = {isa = PBXBuildFile; fileRef = F7ACFDE3DBDA42009BEE800B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */; };
-		AE6F676ECEF3493399E5F729 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */ = {isa = PBXBuildFile; fileRef = 46D7C203D5784917B739F682 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */; };
-		AEBF921F4F93443EAA0D3E1C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */ = {isa = PBXBuildFile; fileRef = 64A21428503D43F391DBE170 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */; };
-		B285515C167D4C849FA285B7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */ = {isa = PBXBuildFile; fileRef = 5EEED7F4B85D432186893347 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */; };
-		B6B8107F440145719F477B01 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */ = {isa = PBXBuildFile; fileRef = 7308C57CC781473886E1656D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */; };
-		B89CFE19528A48CBACD2724D /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */ = {isa = PBXBuildFile; fileRef = A5B0235E6FD340ADBBDA6977 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */; };
-		BB9B745727F5480DAAAE222E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */ = {isa = PBXBuildFile; fileRef = A0DAB62CEC9644C8B3917FD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */; };
-		C3C81D1DEAD9461ABFD94F51 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */ = {isa = PBXBuildFile; fileRef = BEEE21735CDB4ADD8034FED2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */; };
-		C3CF9A460B60467D8D9A5E17 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */ = {isa = PBXBuildFile; fileRef = EA69B23BDA3749C695AD10CE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */; };
-		C7F64A802A274CACA8005562 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */ = {isa = PBXBuildFile; fileRef = 0A269F37D01E4AF2807910CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */; };
-		C86599CC1A5C4EB5A7023DBE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */ = {isa = PBXBuildFile; fileRef = 98DE387C89AC4601B9AA4EEE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */; };
-		CEF455A3F55644B2834754D8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */ = {isa = PBXBuildFile; fileRef = FC1F259EACE6437BA3DC7753 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */; };
-		D14DAED6C9E44252A72C37AC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */ = {isa = PBXBuildFile; fileRef = 4414105A843B4EC28BEE103B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */; };
-		D3E90E2FAEF94C2FB7092555 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */ = {isa = PBXBuildFile; fileRef = 5FD2E113CB9B49D9AB918E1A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */; };
-		D55065A5E8CB4C1CA2FFE0B0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */ = {isa = PBXBuildFile; fileRef = 62D8FAC8A25D4543BAF355FC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */; };
-		D736E54D04484DA8AAD649DE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */ = {isa = PBXBuildFile; fileRef = FC7008E462854C64B7C3B6E8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */; };
-		DD056728D15749BBBA7ABBED /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */ = {isa = PBXBuildFile; fileRef = 1592F725137146DFAF31758F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */; };
-		E604CB47971441A9BECEF4AA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */ = {isa = PBXBuildFile; fileRef = 0ABBA998B7EF4B248E986EFE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */; };
-		E73E13ADCB314D4EBBC8A681 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */ = {isa = PBXBuildFile; fileRef = 55D5D7AA2214417E8425B894 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */; };
-		F15AEF1FB3B347D1915C7DE7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */ = {isa = PBXBuildFile; fileRef = BF55DDAD17BB48A7841BCBBD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */; };
-		F69F98555D404A71A79A52C5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */ = {isa = PBXBuildFile; fileRef = 7466163BAAAB4CDD8F1E24CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */; };
-		F85C2A7D49BC4E5B8CCDD063 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */ = {isa = PBXBuildFile; fileRef = BE2738F6C6434D7F89DCC8FA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */; };
-		FE79F86F46E145E3A43A16C6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 14E70F0922324FB48B74E0ED /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */; };
+		0773A678B18D4F4387279262 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */ = {isa = PBXBuildFile; fileRef = 1237E0A90B5E41929A5F0D06 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */; };
+		0882A2D67370453787119E24 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */ = {isa = PBXBuildFile; fileRef = 533BDEABB340431289560439 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */; };
+		0BD7CBDD7F5548D4AC16AC49 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */ = {isa = PBXBuildFile; fileRef = DE7595F6FA984C11B0847C9A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */; };
+		195A1717A61E4DDF8E25602E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */ = {isa = PBXBuildFile; fileRef = CA37E622C736460BAAC66CAC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */; };
+		1C301DE255ED416CB1F53275 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */ = {isa = PBXBuildFile; fileRef = C4AB536E205F4338BAAD4B58 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */; };
+		1F1FC0FA3A1A4B4F994954DA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */ = {isa = PBXBuildFile; fileRef = FE4695AC808A47D88385B17F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */; };
+		27904F8000CD4492B4446F16 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */ = {isa = PBXBuildFile; fileRef = 9C7DAEE6A92B4C1AAD2B65D4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */; };
+		299D97354AE44D638526944A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */ = {isa = PBXBuildFile; fileRef = 34EA24A8CC43433DB1A820A5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */; };
+		29F1C38917ED4E6FBD3B4B18 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */ = {isa = PBXBuildFile; fileRef = 8F3671615E8745AAAC93FA34 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */; };
+		2B42A926992F4DB1A486F9C9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */ = {isa = PBXBuildFile; fileRef = 9F4A805443FA47638A7C3732 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */; };
+		2CF25543D2A2436A8EB48EAE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */ = {isa = PBXBuildFile; fileRef = BB7D023A77364F48B783F5CC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */; };
+		2D52FEA7E006464CA6A40E66 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */ = {isa = PBXBuildFile; fileRef = 421012D73D0043F7B50C8FC0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */; };
+		339235997771472EA90CA527 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */ = {isa = PBXBuildFile; fileRef = F4DE96DDC31B41FBA94583E9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */; };
+		36E29BA0E0CA412E9EDCB431 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */ = {isa = PBXBuildFile; fileRef = 096D1746A3324150AB3AA06B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */; };
+		3809175A1983493F9D970FC3 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */ = {isa = PBXBuildFile; fileRef = CEBDEC2CEF0B48E19E68B78C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */; };
+		397C48B307264E75B93D5A25 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */ = {isa = PBXBuildFile; fileRef = CDE379833FCE4AE2B97E7D81 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */; };
+		416BDD1911684CF08E28D5EE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */ = {isa = PBXBuildFile; fileRef = 6D00EFA73C3049BD9C2F9139 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */; };
+		42798F15069B4C1EB3B3DF8A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */ = {isa = PBXBuildFile; fileRef = 6167EC6EFC914325B6F57607 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */; };
+		431E5CEB04E0433694A69255 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */ = {isa = PBXBuildFile; fileRef = 5A1F51D38EA74E3DB394878B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */; };
+		43EB44FE29B34FAD974BE342 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */ = {isa = PBXBuildFile; fileRef = 82B966D8AF084416862F5D80 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */; };
+		450CAF5973E44B7484ABE69C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */ = {isa = PBXBuildFile; fileRef = 26ED2A8C66214ADF81B6814A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */; };
+		4950EF890741416FA95160FD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */ = {isa = PBXBuildFile; fileRef = EE64DF7141964AEEBE849A0E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */; };
+		4B5F480AC7AE4702987B9C39 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */ = {isa = PBXBuildFile; fileRef = F4C5D4BC13334C73B49AE51C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */; };
+		4E00F52648EC42A4B2E21EFA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */ = {isa = PBXBuildFile; fileRef = 92A86F6E59C44BE999650CC1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */; };
+		4E03CAC174044B2FAD40DB45 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */ = {isa = PBXBuildFile; fileRef = CD9250E7D8A440C4AAA06FE6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */; };
+		5736E239B526411F9A7CB649 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */ = {isa = PBXBuildFile; fileRef = 73BCFE208FDC4586AB6A4571 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */; };
+		584B5BFAB3804714934FDA7D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */ = {isa = PBXBuildFile; fileRef = 5FF96B0762AF4A3B9B878A14 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */; };
+		5AA1F2B739C64A02B9D6BF7C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */ = {isa = PBXBuildFile; fileRef = A7FAF020E8AB4F26A1E2E25A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */; };
+		5C51B12C6A0C4CC2A4982E7D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */ = {isa = PBXBuildFile; fileRef = 4B238B577E2E4D838E955E43 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */; };
+		6371B7C790044D0A8A54F28D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */ = {isa = PBXBuildFile; fileRef = 10AF63F07DE54D16BFDAF2DA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */; };
+		65D2827F903E44F8B23DFA6E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */ = {isa = PBXBuildFile; fileRef = 2B2E99C9BDB74FADA0BD3755 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */; };
+		721CD98FAF724E43A9F0A706 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */ = {isa = PBXBuildFile; fileRef = 1E239D8DDCC542319BC67B22 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */; };
+		7274AD42B65247DC8FF1282C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */ = {isa = PBXBuildFile; fileRef = 88F9075C22FA4F938983A423 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */; };
+		7382FB08359748388D073AFC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */ = {isa = PBXBuildFile; fileRef = 8E493EA2BF2049E990517D00 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */; };
+		77E73EDAF61F422F986D724D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */ = {isa = PBXBuildFile; fileRef = CE62CD0D6775426FA62A164E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */; };
+		80BB29B543B84D3480199E7D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */ = {isa = PBXBuildFile; fileRef = F3F4C97677374A83A7CCCCC9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */; };
+		810FE4878D0546449D8FAB21 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */ = {isa = PBXBuildFile; fileRef = D4C35D1E9A844435B163B1CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */; };
+		84395B9DABCB4C8AAD8A6779 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */ = {isa = PBXBuildFile; fileRef = 8CD8FB4A60CF4E1D8274FC45 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */; };
+		85F891A273FD41ECB071F63C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */ = {isa = PBXBuildFile; fileRef = 6FB1A51927E6414189392FE2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */; };
+		898E813B10AA42149E9F29A4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */ = {isa = PBXBuildFile; fileRef = 7CD43AC9E7BE48E5BD3203BC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */; };
+		8A3DD7FFA46C438C80F73961 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */ = {isa = PBXBuildFile; fileRef = 55D74E4720054CADBD6B99CB /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */; };
+		946E3BA148B24D43A41372B7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */ = {isa = PBXBuildFile; fileRef = 7C6A655EA980471BA115C43A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */; };
+		976F615FFD0443D899DE3A30 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */ = {isa = PBXBuildFile; fileRef = 1E9A2E92518F44AAB1164686 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */; };
+		A318B7CFB40D41CAB6B9B349 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */ = {isa = PBXBuildFile; fileRef = 194A0DF667AC4105ADFED807 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */; };
+		AB724BC641DE4EE783CAD963 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */ = {isa = PBXBuildFile; fileRef = C3A6E8F8018D4A7580ACEA76 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */; };
+		AC8C19E0510F4868913EE3EA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */ = {isa = PBXBuildFile; fileRef = 020B4A1119D84DC79CED5381 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */; };
+		AE0E1A743EE243F0900CD185 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */ = {isa = PBXBuildFile; fileRef = 6C2C1E8AEF6E489EA29CA21D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */; };
+		B18FB25D95484B7085707B06 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */ = {isa = PBXBuildFile; fileRef = B14BDB916EAF4AAFA5C52788 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */; };
+		B87F82A9C4D242EC9BCECD52 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */ = {isa = PBXBuildFile; fileRef = 75A4AE46BE1E4E71B8EED2C0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */; };
+		BCD2BD637BA94B85880A7C66 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */ = {isa = PBXBuildFile; fileRef = E037399A4EE24A6EA6681869 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */; };
+		C1703FDFA2A045EC96446035 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */ = {isa = PBXBuildFile; fileRef = 5324ED9D68D346CCA28B9452 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */; };
+		C2E6EAA6A07449059CABA53A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */ = {isa = PBXBuildFile; fileRef = 7D8C3E65DECC4E65A60BD0FF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */; };
+		C4A300C8C3B34D1E8B4E8B71 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */ = {isa = PBXBuildFile; fileRef = B540E166714E40509D71AFEF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */; };
+		CA738FA086094A9CAC5E0C36 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */ = {isa = PBXBuildFile; fileRef = 30A72A5D9C80489A91AEA454 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */; };
+		CAB02A152C4E4C9791E2616C /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0B6EBD7410E5494D814B5FAC /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */; };
+		CBC63B03FA574CB6BF61E285 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */ = {isa = PBXBuildFile; fileRef = 77B7B812DDBA4B28BE321062 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */; };
+		D04B27125FD84410B19DEB4B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */ = {isa = PBXBuildFile; fileRef = EA91F7F9CAFD4A4096A9FDC0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */; };
+		D2B82462CE8F4DAA82F9EABD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */ = {isa = PBXBuildFile; fileRef = 0A47096F80984B8A881E49D4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */; };
+		D617AA8E6D9F4C92B583F3A1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */ = {isa = PBXBuildFile; fileRef = 980C1FEFDFEF421AA623B6B5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */; };
+		D8DB12173A914138B73EA269 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */ = {isa = PBXBuildFile; fileRef = 009BE13795F64FAC81AFE293 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */; };
+		E0A21B9E4D0F4A66AC8E69E1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */ = {isa = PBXBuildFile; fileRef = 5074CD3A61A74CD18D437A88 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */; };
+		E2400FB8BE0245D5A6E7F543 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */ = {isa = PBXBuildFile; fileRef = 3AC24C907C2441E29A4DA541 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */; };
+		E369D0A00D4744A496DA1367 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */ = {isa = PBXBuildFile; fileRef = A44F0AFD4689464E80571B8F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */; };
+		E964D81F43AE416896F08C27 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */ = {isa = PBXBuildFile; fileRef = 6AC709727C7542F98E730B90 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */; };
+		EA22A276338646D5ABAEBFBF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */ = {isa = PBXBuildFile; fileRef = EA3BF996131846E4A9C5DFF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */; };
+		EBBF63F39CEA43D88103D2AE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */ = {isa = PBXBuildFile; fileRef = F2ACECBD41F24A0DB8A05C13 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */; };
+		F274C0365D384D4CAF09359C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */ = {isa = PBXBuildFile; fileRef = 33A26F60511C4E49AFE0775E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */; };
+		F55CBF787F234B10B47DEAD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */ = {isa = PBXBuildFile; fileRef = 269DF3701FD44DAABC838407 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */; };
+		F872E7EA7E264CAB9D168D00 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */ = {isa = PBXBuildFile; fileRef = EA34B426975D4903ADCB6B2A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */; };
+		FA3F3CB29D4C431EB128F673 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0C45C60231174EDEB973F388 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */; };
+		FAB19E4129824724B92C2863 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */ = {isa = PBXBuildFile; fileRef = 1AEE8204904548B9B77A61D1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		3C3C99F3A7D6466AAA6D6872 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		9C94017B4F3A40E999864567 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		B991026E2A5B487C9D5E48FC /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		E117B05657444AADBF87B1A0 /* Debug */ = {
+		51CDA6AEA52F4A87985D59E6 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		75BEBE8AEB974E6B93E144E3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B6B5F6DE7CE744AC9166C0BE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BD1C566311E048C2B56E6205 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		58E94239E9074353B5A55756 /* PBXContainerItemProxy */ = {
+		20470582D55742C09BB78960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B14605EF40F94F0086617BD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 613F5E9CC5812D797DCD8199;
-			remoteInfo = bpm_core;
-		};
-		7765CE5C71154DA8A634ABD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B14605EF40F94F0086617BD7 /* Project object */;
+			containerPortal = 5E0C8FD89EE941C9B30DF3B4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F0F97EB5417F0AA0808A5833;
 			remoteInfo = ZERO_CHECK;
 		};
-		F361783E15524B118977631F /* PBXContainerItemProxy */ = {
+		C38B9550070B431581C3AD1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B14605EF40F94F0086617BD7 /* Project object */;
+			containerPortal = 5E0C8FD89EE941C9B30DF3B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613F5E9CC5812D797DCD8199;
+			remoteInfo = bpm_core;
+		};
+		E547A0F1B2254DA7861A4BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0C8FD89EE941C9B30DF3B4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F0F97EB5417F0AA0808A5833;
 			remoteInfo = ZERO_CHECK;
@@ -163,83 +163,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00EFA87AF42B4E249FFB5CBA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchyinfast.c; path = aubio/src/pitch/pitchyinfast.c; sourceTree = SOURCE_ROOT; };
-		01BD5B49EDE740218231553B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sampler.c; path = aubio/src/synth/sampler.c; sourceTree = SOURCE_ROOT; };
-		0A15217AFF3147FC80896734 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filterbank.c; path = aubio/src/spectral/filterbank.c; sourceTree = SOURCE_ROOT; };
-		0A269F37D01E4AF2807910CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rubberband_utils.c; path = aubio/src/effects/rubberband_utils.c; sourceTree = SOURCE_ROOT; };
-		0ABBA998B7EF4B248E986EFE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ooura_fft8g.c; path = aubio/src/spectral/ooura_fft8g.c; sourceTree = SOURCE_ROOT; };
-		0CAEFFA5014144479B926AD8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_avcodec.c; path = aubio/src/io/source_avcodec.c; sourceTree = SOURCE_ROOT; };
-		0D1986C829CC44388492EAF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchfcomb.c; path = aubio/src/pitch/pitchfcomb.c; sourceTree = SOURCE_ROOT; };
-		14E70F0922324FB48B74E0ED /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1592F725137146DFAF31758F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = beattracking.c; path = aubio/src/tempo/beattracking.c; sourceTree = SOURCE_ROOT; };
-		169513F925B74AC4A508744E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchshift_dummy.c; path = aubio/src/effects/pitchshift_dummy.c; sourceTree = SOURCE_ROOT; };
-		1B2A40FC0DA34905B06B4EC4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = parameter.c; path = aubio/src/utils/parameter.c; sourceTree = SOURCE_ROOT; };
-		1CC8B780570C472BACC65634 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchmcomb.c; path = aubio/src/pitch/pitchmcomb.c; sourceTree = SOURCE_ROOT; };
-		28CECA3488864826A7C46B40 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tempo.c; path = aubio/src/tempo/tempo.c; sourceTree = SOURCE_ROOT; };
-		2A32534DF4834A9B8A6EFC78 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = onset.c; path = aubio/src/onset/onset.c; sourceTree = SOURCE_ROOT; };
-		2E92543A04244713B20994C4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filterbank_mel.c; path = aubio/src/spectral/filterbank_mel.c; sourceTree = SOURCE_ROOT; };
-		2EE415EE3FB84AE3943E2E20 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_apple_audio.c; path = aubio/src/io/sink_apple_audio.c; sourceTree = SOURCE_ROOT; };
-		38C9ECB2D0914476960854E6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio_unit.c; path = aubio/src/io/audio_unit.c; sourceTree = SOURCE_ROOT; };
-		3E3903091BA248679DB38263 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_wavread.c; path = aubio/src/io/source_wavread.c; sourceTree = SOURCE_ROOT; };
-		4134677B7F9F464CB3BA06B8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = notes.c; path = aubio/src/notes/notes.c; sourceTree = SOURCE_ROOT; };
-		43207C1E86824F67B59A9D9E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fvec.c; path = aubio/src/fvec.c; sourceTree = SOURCE_ROOT; };
-		4414105A843B4EC28BEE103B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = peakpicker.c; path = aubio/src/onset/peakpicker.c; sourceTree = SOURCE_ROOT; };
-		46D7C203D5784917B739F682 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = biquad.c; path = aubio/src/temporal/biquad.c; sourceTree = SOURCE_ROOT; };
-		4D5A56410C45471C99FEA6D7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_sndfile.c; path = aubio/src/io/source_sndfile.c; sourceTree = SOURCE_ROOT; };
-		4FFB72444EBD4C659D2AF62E /* bpm_core */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbpm_core.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		54FE794601D64DFDA6352745 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchschmitt.c; path = aubio/src/pitch/pitchschmitt.c; sourceTree = SOURCE_ROOT; };
-		55D5D7AA2214417E8425B894 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchspecacf.c; path = aubio/src/pitch/pitchspecacf.c; sourceTree = SOURCE_ROOT; };
-		58B86BC72FA346939D089FEA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_accelerate.c; path = aubio/src/spectral/dct_accelerate.c; sourceTree = SOURCE_ROOT; };
-		5AE79C17846A45D38482A97F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mfcc.c; path = aubio/src/spectral/mfcc.c; sourceTree = SOURCE_ROOT; };
-		5B0F557192A64A69B8EB4D1A /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5EEED7F4B85D432186893347 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filter.c; path = aubio/src/temporal/filter.c; sourceTree = SOURCE_ROOT; };
-		5FD2E113CB9B49D9AB918E1A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = windll.c; path = aubio/src/utils/windll.c; sourceTree = SOURCE_ROOT; };
-		62355E1F89484AAF8D46DB2E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lvec.c; path = aubio/src/lvec.c; sourceTree = SOURCE_ROOT; };
-		62D8FAC8A25D4543BAF355FC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct.c; path = aubio/src/spectral/dct.c; sourceTree = SOURCE_ROOT; };
-		64A21428503D43F391DBE170 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = strutils.c; path = aubio/src/utils/strutils.c; sourceTree = SOURCE_ROOT; };
-		6859FCA81371475AA991630B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchshift_rubberband.c; path = aubio/src/effects/pitchshift_rubberband.c; sourceTree = SOURCE_ROOT; };
-		69898F0DC2E6480C9F0C3C5A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = phasevoc.c; path = aubio/src/spectral/phasevoc.c; sourceTree = SOURCE_ROOT; };
-		713A98EFE00E45EEAB67632B /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
-		7308C57CC781473886E1656D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_ipp.c; path = aubio/src/spectral/dct_ipp.c; sourceTree = SOURCE_ROOT; };
-		736CDE4516074275BB0E829F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = resampler.c; path = aubio/src/temporal/resampler.c; sourceTree = SOURCE_ROOT; };
-		7466163BAAAB4CDD8F1E24CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fft.c; path = aubio/src/spectral/fft.c; sourceTree = SOURCE_ROOT; };
-		79096E003CD14C85BB7F628B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchyinfft.c; path = aubio/src/pitch/pitchyinfft.c; sourceTree = SOURCE_ROOT; };
-		95D66777EEBF4BACB8BCF9E0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_fftw.c; path = aubio/src/spectral/dct_fftw.c; sourceTree = SOURCE_ROOT; };
-		98DE387C89AC4601B9AA4EEE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = scale.c; path = aubio/src/utils/scale.c; sourceTree = SOURCE_ROOT; };
-		99E9BA350B794330A8979AAD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = hist.c; path = aubio/src/utils/hist.c; sourceTree = SOURCE_ROOT; };
-		A0DAB62CEC9644C8B3917FD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fmat.c; path = aubio/src/fmat.c; sourceTree = SOURCE_ROOT; };
-		A5B0235E6FD340ADBBDA6977 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bpm_detector.cpp; path = src/bpm_detector.cpp; sourceTree = SOURCE_ROOT; };
-		AA083999E1AF40CD817D4D8B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = c_weighting.c; path = aubio/src/temporal/c_weighting.c; sourceTree = SOURCE_ROOT; };
-		B48F91D4E7834AEF93B58357 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = log.c; path = aubio/src/utils/log.c; sourceTree = SOURCE_ROOT; };
-		B63C76BB9BB6433180F4F232 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timestretch_dummy.c; path = aubio/src/effects/timestretch_dummy.c; sourceTree = SOURCE_ROOT; };
-		BBB5E7D05236415DBC640EBD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink.c; path = aubio/src/io/sink.c; sourceTree = SOURCE_ROOT; };
-		BE2738F6C6434D7F89DCC8FA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = a_weighting.c; path = aubio/src/temporal/a_weighting.c; sourceTree = SOURCE_ROOT; };
-		BEEE21735CDB4ADD8034FED2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitch.c; path = aubio/src/pitch/pitch.c; sourceTree = SOURCE_ROOT; };
-		BF55DDAD17BB48A7841BCBBD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchyin.c; path = aubio/src/pitch/pitchyin.c; sourceTree = SOURCE_ROOT; };
-		C1AB43F04A5E41FEB197CE38 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_ooura.c; path = aubio/src/spectral/dct_ooura.c; sourceTree = SOURCE_ROOT; };
-		C5EAAE48912C4F73A7053E6D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_flac.c; path = aubio/src/io/sink_flac.c; sourceTree = SOURCE_ROOT; };
-		C8AB60FDE69E41ABBE505FA6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tss.c; path = aubio/src/spectral/tss.c; sourceTree = SOURCE_ROOT; };
-		CDD0CB79AB4C414D88AB5280 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_apple_audio.c; path = aubio/src/io/source_apple_audio.c; sourceTree = SOURCE_ROOT; };
-		D4D46BA9F9344E089029793D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = wavetable.c; path = aubio/src/synth/wavetable.c; sourceTree = SOURCE_ROOT; };
-		DBB9F8A720AF42CC86D0C8A5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vecutils.c; path = aubio/src/vecutils.c; sourceTree = SOURCE_ROOT; };
-		DFAE14830D9C4880AEBDA14F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = awhitening.c; path = aubio/src/spectral/awhitening.c; sourceTree = SOURCE_ROOT; };
-		E39F6E477EFF414ABB92E264 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source.c; path = aubio/src/io/source.c; sourceTree = SOURCE_ROOT; };
-		E5A2EE0AAF13421085EB8E3B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = statistics.c; path = aubio/src/spectral/statistics.c; sourceTree = SOURCE_ROOT; };
-		E6246E278C5243EE92D18398 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_plain.c; path = aubio/src/spectral/dct_plain.c; sourceTree = SOURCE_ROOT; };
-		E82852047C7B4B06A9972CA7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_wavwrite.c; path = aubio/src/io/sink_wavwrite.c; sourceTree = SOURCE_ROOT; };
-		E90858E1D6DA45BA8AE9928E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_sndfile.c; path = aubio/src/io/sink_sndfile.c; sourceTree = SOURCE_ROOT; };
-		EA69B23BDA3749C695AD10CE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = specdesc.c; path = aubio/src/spectral/specdesc.c; sourceTree = SOURCE_ROOT; };
-		F3BCCBE8BBD544A88E617799 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utils_apple_audio.c; path = aubio/src/io/utils_apple_audio.c; sourceTree = SOURCE_ROOT; };
-		F7ACFDE3DBDA42009BEE800B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_vorbis.c; path = aubio/src/io/sink_vorbis.c; sourceTree = SOURCE_ROOT; };
-		FA84C5F285A142228FA52CD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mathutils.c; path = aubio/src/mathutils.c; sourceTree = SOURCE_ROOT; };
-		FA88C7B2F0DA49D4A3F7FE56 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cvec.c; path = aubio/src/cvec.c; sourceTree = SOURCE_ROOT; };
-		FC1F259EACE6437BA3DC7753 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timestretch_rubberband.c; path = aubio/src/effects/timestretch_rubberband.c; sourceTree = SOURCE_ROOT; };
-		FC7008E462854C64B7C3B6E8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ioutils.c; path = aubio/src/io/ioutils.c; sourceTree = SOURCE_ROOT; };
-		FFD5CF151A284F1E883575DE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = musicutils.c; path = aubio/src/musicutils.c; sourceTree = SOURCE_ROOT; };
+		009BE13795F64FAC81AFE293 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio_unit.c; path = aubio/src/io/audio_unit.c; sourceTree = SOURCE_ROOT; };
+		020B4A1119D84DC79CED5381 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rubberband_utils.c; path = aubio/src/effects/rubberband_utils.c; sourceTree = SOURCE_ROOT; };
+		096D1746A3324150AB3AA06B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = statistics.c; path = aubio/src/spectral/statistics.c; sourceTree = SOURCE_ROOT; };
+		0A47096F80984B8A881E49D4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fmat.c; path = aubio/src/fmat.c; sourceTree = SOURCE_ROOT; };
+		0B6EBD7410E5494D814B5FAC /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		0C45C60231174EDEB973F388 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		10AF63F07DE54D16BFDAF2DA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = resampler.c; path = aubio/src/temporal/resampler.c; sourceTree = SOURCE_ROOT; };
+		1237E0A90B5E41929A5F0D06 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_avcodec.c; path = aubio/src/io/source_avcodec.c; sourceTree = SOURCE_ROOT; };
+		194A0DF667AC4105ADFED807 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchyin.c; path = aubio/src/pitch/pitchyin.c; sourceTree = SOURCE_ROOT; };
+		1AEE8204904548B9B77A61D1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_plain.c; path = aubio/src/spectral/dct_plain.c; sourceTree = SOURCE_ROOT; };
+		1E239D8DDCC542319BC67B22 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = beattracking.c; path = aubio/src/tempo/beattracking.c; sourceTree = SOURCE_ROOT; };
+		1E9A2E92518F44AAB1164686 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bpm_detector.cpp; path = src/bpm_detector.cpp; sourceTree = SOURCE_ROOT; };
+		269DF3701FD44DAABC838407 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchshift_dummy.c; path = aubio/src/effects/pitchshift_dummy.c; sourceTree = SOURCE_ROOT; };
+		26ED2A8C66214ADF81B6814A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_wavwrite.c; path = aubio/src/io/sink_wavwrite.c; sourceTree = SOURCE_ROOT; };
+		2B2E99C9BDB74FADA0BD3755 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchyinfft.c; path = aubio/src/pitch/pitchyinfft.c; sourceTree = SOURCE_ROOT; };
+		30A72A5D9C80489A91AEA454 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_fftw.c; path = aubio/src/spectral/dct_fftw.c; sourceTree = SOURCE_ROOT; };
+		33A26F60511C4E49AFE0775E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = biquad.c; path = aubio/src/temporal/biquad.c; sourceTree = SOURCE_ROOT; };
+		34EA24A8CC43433DB1A820A5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchshift_rubberband.c; path = aubio/src/effects/pitchshift_rubberband.c; sourceTree = SOURCE_ROOT; };
+		3AC24C907C2441E29A4DA541 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_sndfile.c; path = aubio/src/io/source_sndfile.c; sourceTree = SOURCE_ROOT; };
+		421012D73D0043F7B50C8FC0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = notes.c; path = aubio/src/notes/notes.c; sourceTree = SOURCE_ROOT; };
+		4B238B577E2E4D838E955E43 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_sndfile.c; path = aubio/src/io/sink_sndfile.c; sourceTree = SOURCE_ROOT; };
+		5074CD3A61A74CD18D437A88 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timestretch_rubberband.c; path = aubio/src/effects/timestretch_rubberband.c; sourceTree = SOURCE_ROOT; };
+		5324ED9D68D346CCA28B9452 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = c_weighting.c; path = aubio/src/temporal/c_weighting.c; sourceTree = SOURCE_ROOT; };
+		533BDEABB340431289560439 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = peakpicker.c; path = aubio/src/onset/peakpicker.c; sourceTree = SOURCE_ROOT; };
+		55D74E4720054CADBD6B99CB /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = hist.c; path = aubio/src/utils/hist.c; sourceTree = SOURCE_ROOT; };
+		5A1F51D38EA74E3DB394878B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = musicutils.c; path = aubio/src/musicutils.c; sourceTree = SOURCE_ROOT; };
+		5FF96B0762AF4A3B9B878A14 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utils_apple_audio.c; path = aubio/src/io/utils_apple_audio.c; sourceTree = SOURCE_ROOT; };
+		6167EC6EFC914325B6F57607 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = wavetable.c; path = aubio/src/synth/wavetable.c; sourceTree = SOURCE_ROOT; };
+		6AC709727C7542F98E730B90 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filterbank_mel.c; path = aubio/src/spectral/filterbank_mel.c; sourceTree = SOURCE_ROOT; };
+		6C2C1E8AEF6E489EA29CA21D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_flac.c; path = aubio/src/io/sink_flac.c; sourceTree = SOURCE_ROOT; };
+		6D00EFA73C3049BD9C2F9139 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fvec.c; path = aubio/src/fvec.c; sourceTree = SOURCE_ROOT; };
+		6FB1A51927E6414189392FE2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchmcomb.c; path = aubio/src/pitch/pitchmcomb.c; sourceTree = SOURCE_ROOT; };
+		73BCFE208FDC4586AB6A4571 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_apple_audio.c; path = aubio/src/io/source_apple_audio.c; sourceTree = SOURCE_ROOT; };
+		75A4AE46BE1E4E71B8EED2C0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source.c; path = aubio/src/io/source.c; sourceTree = SOURCE_ROOT; };
+		7699D9539D42470480C8CA9B /* bpm_core */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbpm_core.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B7B812DDBA4B28BE321062 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fft.c; path = aubio/src/spectral/fft.c; sourceTree = SOURCE_ROOT; };
+		7C6A655EA980471BA115C43A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = specdesc.c; path = aubio/src/spectral/specdesc.c; sourceTree = SOURCE_ROOT; };
+		7CD43AC9E7BE48E5BD3203BC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct.c; path = aubio/src/spectral/dct.c; sourceTree = SOURCE_ROOT; };
+		7D8C3E65DECC4E65A60BD0FF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink.c; path = aubio/src/io/sink.c; sourceTree = SOURCE_ROOT; };
+		82B966D8AF084416862F5D80 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vecutils.c; path = aubio/src/vecutils.c; sourceTree = SOURCE_ROOT; };
+		88F9075C22FA4F938983A423 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sampler.c; path = aubio/src/synth/sampler.c; sourceTree = SOURCE_ROOT; };
+		8CD8FB4A60CF4E1D8274FC45 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tss.c; path = aubio/src/spectral/tss.c; sourceTree = SOURCE_ROOT; };
+		8E493EA2BF2049E990517D00 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchyinfast.c; path = aubio/src/pitch/pitchyinfast.c; sourceTree = SOURCE_ROOT; };
+		8F3671615E8745AAAC93FA34 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mathutils.c; path = aubio/src/mathutils.c; sourceTree = SOURCE_ROOT; };
+		92A86F6E59C44BE999650CC1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = phasevoc.c; path = aubio/src/spectral/phasevoc.c; sourceTree = SOURCE_ROOT; };
+		92F6ED7248DB4A77855C2E30 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		980C1FEFDFEF421AA623B6B5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = windll.c; path = aubio/src/utils/windll.c; sourceTree = SOURCE_ROOT; };
+		9C7DAEE6A92B4C1AAD2B65D4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = a_weighting.c; path = aubio/src/temporal/a_weighting.c; sourceTree = SOURCE_ROOT; };
+		9F4A805443FA47638A7C3732 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ioutils.c; path = aubio/src/io/ioutils.c; sourceTree = SOURCE_ROOT; };
+		A44F0AFD4689464E80571B8F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = log.c; path = aubio/src/utils/log.c; sourceTree = SOURCE_ROOT; };
+		A7FAF020E8AB4F26A1E2E25A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_accelerate.c; path = aubio/src/spectral/dct_accelerate.c; sourceTree = SOURCE_ROOT; };
+		B14BDB916EAF4AAFA5C52788 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = parameter.c; path = aubio/src/utils/parameter.c; sourceTree = SOURCE_ROOT; };
+		B540E166714E40509D71AFEF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_vorbis.c; path = aubio/src/io/sink_vorbis.c; sourceTree = SOURCE_ROOT; };
+		BB7D023A77364F48B783F5CC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sink_apple_audio.c; path = aubio/src/io/sink_apple_audio.c; sourceTree = SOURCE_ROOT; };
+		C3A6E8F8018D4A7580ACEA76 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tempo.c; path = aubio/src/tempo/tempo.c; sourceTree = SOURCE_ROOT; };
+		C4AB536E205F4338BAAD4B58 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchschmitt.c; path = aubio/src/pitch/pitchschmitt.c; sourceTree = SOURCE_ROOT; };
+		CA37E622C736460BAAC66CAC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitch.c; path = aubio/src/pitch/pitch.c; sourceTree = SOURCE_ROOT; };
+		CD9250E7D8A440C4AAA06FE6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lvec.c; path = aubio/src/lvec.c; sourceTree = SOURCE_ROOT; };
+		CDE379833FCE4AE2B97E7D81 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filter.c; path = aubio/src/temporal/filter.c; sourceTree = SOURCE_ROOT; };
+		CE62CD0D6775426FA62A164E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = onset.c; path = aubio/src/onset/onset.c; sourceTree = SOURCE_ROOT; };
+		CEBDEC2CEF0B48E19E68B78C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = strutils.c; path = aubio/src/utils/strutils.c; sourceTree = SOURCE_ROOT; };
+		D4C35D1E9A844435B163B1CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ooura_fft8g.c; path = aubio/src/spectral/ooura_fft8g.c; sourceTree = SOURCE_ROOT; };
+		DE7595F6FA984C11B0847C9A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timestretch_dummy.c; path = aubio/src/effects/timestretch_dummy.c; sourceTree = SOURCE_ROOT; };
+		E037399A4EE24A6EA6681869 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchspecacf.c; path = aubio/src/pitch/pitchspecacf.c; sourceTree = SOURCE_ROOT; };
+		EA34B426975D4903ADCB6B2A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_ooura.c; path = aubio/src/spectral/dct_ooura.c; sourceTree = SOURCE_ROOT; };
+		EA3BF996131846E4A9C5DFF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dct_ipp.c; path = aubio/src/spectral/dct_ipp.c; sourceTree = SOURCE_ROOT; };
+		EA91F7F9CAFD4A4096A9FDC0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = scale.c; path = aubio/src/utils/scale.c; sourceTree = SOURCE_ROOT; };
+		EE64DF7141964AEEBE849A0E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = awhitening.c; path = aubio/src/spectral/awhitening.c; sourceTree = SOURCE_ROOT; };
+		F2ACECBD41F24A0DB8A05C13 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filterbank.c; path = aubio/src/spectral/filterbank.c; sourceTree = SOURCE_ROOT; };
+		F3F4C97677374A83A7CCCCC9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cvec.c; path = aubio/src/cvec.c; sourceTree = SOURCE_ROOT; };
+		F4C5D4BC13334C73B49AE51C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pitchfcomb.c; path = aubio/src/pitch/pitchfcomb.c; sourceTree = SOURCE_ROOT; };
+		F4DE96DDC31B41FBA94583E9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = source_wavread.c; path = aubio/src/io/source_wavread.c; sourceTree = SOURCE_ROOT; };
+		FE4695AC808A47D88385B17F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mfcc.c; path = aubio/src/spectral/mfcc.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F3DB292241D479FB9225A79 /* Frameworks */ = {
+		3E6103D45DEE4162B602345C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,147 +249,147 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23FA8DFCE69146DABAA27068 /* Resources */ = {
+		038691D9C8964C1CB6C6F803 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		265D9A45A3734C469CA45CAE /* CMake Rules */ = {
+		33E31EA57FB24AEFBB1D8891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7699D9539D42470480C8CA9B /* bpm_core */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379019174DB44F1DBEE94CEE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F4C97677374A83A7CCCCC9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */,
+				269DF3701FD44DAABC838407 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */,
+				34EA24A8CC43433DB1A820A5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */,
+				020B4A1119D84DC79CED5381 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */,
+				DE7595F6FA984C11B0847C9A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */,
+				5074CD3A61A74CD18D437A88 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */,
+				0A47096F80984B8A881E49D4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */,
+				6D00EFA73C3049BD9C2F9139 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */,
+				009BE13795F64FAC81AFE293 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */,
+				9F4A805443FA47638A7C3732 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */,
+				7D8C3E65DECC4E65A60BD0FF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */,
+				BB7D023A77364F48B783F5CC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */,
+				6C2C1E8AEF6E489EA29CA21D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */,
+				4B238B577E2E4D838E955E43 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */,
+				B540E166714E40509D71AFEF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */,
+				26ED2A8C66214ADF81B6814A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */,
+				75A4AE46BE1E4E71B8EED2C0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */,
+				73BCFE208FDC4586AB6A4571 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */,
+				1237E0A90B5E41929A5F0D06 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */,
+				3AC24C907C2441E29A4DA541 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */,
+				F4DE96DDC31B41FBA94583E9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */,
+				5FF96B0762AF4A3B9B878A14 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */,
+				CD9250E7D8A440C4AAA06FE6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */,
+				8F3671615E8745AAAC93FA34 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */,
+				5A1F51D38EA74E3DB394878B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */,
+				421012D73D0043F7B50C8FC0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */,
+				CE62CD0D6775426FA62A164E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */,
+				533BDEABB340431289560439 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */,
+				CA37E622C736460BAAC66CAC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */,
+				F4C5D4BC13334C73B49AE51C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */,
+				6FB1A51927E6414189392FE2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */,
+				C4AB536E205F4338BAAD4B58 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */,
+				E037399A4EE24A6EA6681869 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */,
+				194A0DF667AC4105ADFED807 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */,
+				8E493EA2BF2049E990517D00 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */,
+				2B2E99C9BDB74FADA0BD3755 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */,
+				EE64DF7141964AEEBE849A0E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */,
+				7CD43AC9E7BE48E5BD3203BC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */,
+				A7FAF020E8AB4F26A1E2E25A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */,
+				30A72A5D9C80489A91AEA454 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */,
+				EA3BF996131846E4A9C5DFF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */,
+				EA34B426975D4903ADCB6B2A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */,
+				1AEE8204904548B9B77A61D1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */,
+				77B7B812DDBA4B28BE321062 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */,
+				F2ACECBD41F24A0DB8A05C13 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */,
+				6AC709727C7542F98E730B90 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */,
+				FE4695AC808A47D88385B17F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */,
+				D4C35D1E9A844435B163B1CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */,
+				92A86F6E59C44BE999650CC1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */,
+				7C6A655EA980471BA115C43A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */,
+				096D1746A3324150AB3AA06B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */,
+				8CD8FB4A60CF4E1D8274FC45 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */,
+				88F9075C22FA4F938983A423 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */,
+				6167EC6EFC914325B6F57607 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */,
+				1E239D8DDCC542319BC67B22 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */,
+				C3A6E8F8018D4A7580ACEA76 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */,
+				9C7DAEE6A92B4C1AAD2B65D4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */,
+				33A26F60511C4E49AFE0775E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */,
+				5324ED9D68D346CCA28B9452 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */,
+				CDE379833FCE4AE2B97E7D81 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */,
+				10AF63F07DE54D16BFDAF2DA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */,
+				55D74E4720054CADBD6B99CB /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */,
+				A44F0AFD4689464E80571B8F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */,
+				B14BDB916EAF4AAFA5C52788 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */,
+				EA91F7F9CAFD4A4096A9FDC0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */,
+				CEBDEC2CEF0B48E19E68B78C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */,
+				980C1FEFDFEF421AA623B6B5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */,
+				82B966D8AF084416862F5D80 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */,
+				1E9A2E92518F44AAB1164686 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5AE90C36B3C649AFB816F2ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62FC46C541D946169B80CDB4 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		3C69AA0B849F4A95A80A73B2 /* Source Files */ = {
+		89F85F0A453F4A47A2C164C1 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				FA88C7B2F0DA49D4A3F7FE56 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */,
-				169513F925B74AC4A508744E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */,
-				6859FCA81371475AA991630B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */,
-				0A269F37D01E4AF2807910CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */,
-				B63C76BB9BB6433180F4F232 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */,
-				FC1F259EACE6437BA3DC7753 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */,
-				A0DAB62CEC9644C8B3917FD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */,
-				43207C1E86824F67B59A9D9E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */,
-				38C9ECB2D0914476960854E6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */,
-				FC7008E462854C64B7C3B6E8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */,
-				BBB5E7D05236415DBC640EBD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */,
-				2EE415EE3FB84AE3943E2E20 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */,
-				C5EAAE48912C4F73A7053E6D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */,
-				E90858E1D6DA45BA8AE9928E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */,
-				F7ACFDE3DBDA42009BEE800B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */,
-				E82852047C7B4B06A9972CA7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */,
-				E39F6E477EFF414ABB92E264 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */,
-				CDD0CB79AB4C414D88AB5280 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */,
-				0CAEFFA5014144479B926AD8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */,
-				4D5A56410C45471C99FEA6D7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */,
-				3E3903091BA248679DB38263 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */,
-				F3BCCBE8BBD544A88E617799 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */,
-				62355E1F89484AAF8D46DB2E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */,
-				FA84C5F285A142228FA52CD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */,
-				FFD5CF151A284F1E883575DE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */,
-				4134677B7F9F464CB3BA06B8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */,
-				2A32534DF4834A9B8A6EFC78 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */,
-				4414105A843B4EC28BEE103B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */,
-				BEEE21735CDB4ADD8034FED2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */,
-				0D1986C829CC44388492EAF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */,
-				1CC8B780570C472BACC65634 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */,
-				54FE794601D64DFDA6352745 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */,
-				55D5D7AA2214417E8425B894 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */,
-				BF55DDAD17BB48A7841BCBBD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */,
-				00EFA87AF42B4E249FFB5CBA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */,
-				79096E003CD14C85BB7F628B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */,
-				DFAE14830D9C4880AEBDA14F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */,
-				62D8FAC8A25D4543BAF355FC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */,
-				58B86BC72FA346939D089FEA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */,
-				95D66777EEBF4BACB8BCF9E0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */,
-				7308C57CC781473886E1656D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */,
-				C1AB43F04A5E41FEB197CE38 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */,
-				E6246E278C5243EE92D18398 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */,
-				7466163BAAAB4CDD8F1E24CD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */,
-				0A15217AFF3147FC80896734 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */,
-				2E92543A04244713B20994C4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */,
-				5AE79C17846A45D38482A97F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */,
-				0ABBA998B7EF4B248E986EFE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */,
-				69898F0DC2E6480C9F0C3C5A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */,
-				EA69B23BDA3749C695AD10CE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */,
-				E5A2EE0AAF13421085EB8E3B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */,
-				C8AB60FDE69E41ABBE505FA6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */,
-				01BD5B49EDE740218231553B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */,
-				D4D46BA9F9344E089029793D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */,
-				1592F725137146DFAF31758F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */,
-				28CECA3488864826A7C46B40 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */,
-				BE2738F6C6434D7F89DCC8FA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */,
-				46D7C203D5784917B739F682 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */,
-				AA083999E1AF40CD817D4D8B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */,
-				5EEED7F4B85D432186893347 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */,
-				736CDE4516074275BB0E829F /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */,
-				99E9BA350B794330A8979AAD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */,
-				B48F91D4E7834AEF93B58357 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */,
-				1B2A40FC0DA34905B06B4EC4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */,
-				98DE387C89AC4601B9AA4EEE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */,
-				64A21428503D43F391DBE170 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */,
-				5FD2E113CB9B49D9AB918E1A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */,
-				DBB9F8A720AF42CC86D0C8A5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */,
-				A5B0235E6FD340ADBBDA6977 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		42BF9E41E94D4DDDB78A51CC /* bpm_core */ = {
-			isa = PBXGroup;
-			children = (
-				3C69AA0B849F4A95A80A73B2 /* Source Files */,
-				E5E31347E46B4A08900753CF /* Resources */,
-				14E70F0922324FB48B74E0ED /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */,
-			);
-			name = bpm_core;
-			sourceTree = "<group>";
-		};
-		551CD51B09974B17BC259BB1 = {
-			isa = PBXGroup;
-			children = (
-				42BF9E41E94D4DDDB78A51CC /* bpm_core */,
-				89F9EEDC6EC2470A888B7150 /* ALL_BUILD */,
-				D12F2F0A39E64CD49BB723AE /* Products */,
-				E91D78F1721B4ABABE9CBB9C /* Frameworks */,
-				23FA8DFCE69146DABAA27068 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		89F9EEDC6EC2470A888B7150 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				265D9A45A3734C469CA45CAE /* CMake Rules */,
-				5B0F557192A64A69B8EB4D1A /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */,
+				62FC46C541D946169B80CDB4 /* CMake Rules */,
+				92F6ED7248DB4A77855C2E30 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D12F2F0A39E64CD49BB723AE /* Products */ = {
+		A9DE4881314D4795B67F4F22 /* bpm_core */ = {
 			isa = PBXGroup;
 			children = (
-				4FFB72444EBD4C659D2AF62E /* bpm_core */,
+				379019174DB44F1DBEE94CEE /* Source Files */,
+				C0790EC44DDA458A9925B6B6 /* Resources */,
+				0C45C60231174EDEB973F388 /* /Users/joel/Documents/GitHub/realtime-bpm/core/CMakeLists.txt */,
 			);
-			name = Products;
+			name = bpm_core;
 			sourceTree = "<group>";
 		};
-		E5E31347E46B4A08900753CF /* Resources */ = {
+		C0790EC44DDA458A9925B6B6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				713A98EFE00E45EEAB67632B /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */,
+				0B6EBD7410E5494D814B5FAC /* /Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir/Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E91D78F1721B4ABABE9CBB9C /* Frameworks */ = {
+		FBE578AC800F44849F5327F0 = {
 			isa = PBXGroup;
 			children = (
+				A9DE4881314D4795B67F4F22 /* bpm_core */,
+				89F85F0A453F4A47A2C164C1 /* ALL_BUILD */,
+				33E31EA57FB24AEFBB1D8891 /* Products */,
+				5AE90C36B3C649AFB816F2ED /* Frameworks */,
+				038691D9C8964C1CB6C6F803 /* Resources */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,42 +397,42 @@
 /* Begin PBXNativeTarget section */
 		613F5E9CC5812D797DCD8199 /* bpm_core */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6666189C8B7D4766A3227BE5 /* Build configuration list for PBXNativeTarget "bpm_core" */;
+			buildConfigurationList = 87DE3BB5CB9B4BB38646B0C0 /* Build configuration list for PBXNativeTarget "bpm_core" */;
 			buildPhases = (
-				7C5D6F77DD174D0F9D5844BF /* Sources */,
-				6F3DB292241D479FB9225A79 /* Frameworks */,
+				C812079F67B14FDA99A83ABC /* Sources */,
+				3E6103D45DEE4162B602345C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5158E52A3E24CEF84664898 /* PBXTargetDependency */,
+				BB50DF089D954EF882ED871D /* PBXTargetDependency */,
 			);
 			name = bpm_core;
 			productName = bpm_core;
-			productReference = 4FFB72444EBD4C659D2AF62E /* bpm_core */;
+			productReference = 7699D9539D42470480C8CA9B /* bpm_core */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B14605EF40F94F0086617BD7 /* Project object */ = {
+		5E0C8FD89EE941C9B30DF3B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1610;
 			};
-			buildConfigurationList = F57375DB38E24E289CEE86FB /* Build configuration list for PBXProject "bpm_core" */;
+			buildConfigurationList = 362941B079E44BAE9D8BA876 /* Build configuration list for PBXProject "bpm_core" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				E117B05657444AADBF87B1A0 /* Debug */,
-				B991026E2A5B487C9D5E48FC /* Release */,
-				9C94017B4F3A40E999864567 /* MinSizeRel */,
-				3C3C99F3A7D6466AAA6D6872 /* RelWithDebInfo */,
+				51CDA6AEA52F4A87985D59E6 /* Debug */,
+				BD1C566311E048C2B56E6205 /* Release */,
+				B6B5F6DE7CE744AC9166C0BE /* MinSizeRel */,
+				75BEBE8AEB974E6B93E144E3 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 551CD51B09974B17BC259BB1;
+			mainGroup = FBE578AC800F44849F5327F0;
 			projectDirPath = "/Users/joel/Documents/GitHub/realtime-bpm/core";
 			projectRoot = "";
 			targets = (
@@ -543,317 +543,108 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C5D6F77DD174D0F9D5844BF /* Sources */ = {
+		C812079F67B14FDA99A83ABC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB8DFA777D44FA98FD1ED88 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */,
-				5182E0B33B724BDB9EE4BB30 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */,
-				596DC23E7A7E47648EC36354 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */,
-				C7F64A802A274CACA8005562 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */,
-				27663F7C0E6244D1A0BCFCC7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */,
-				CEF455A3F55644B2834754D8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */,
-				BB9B745727F5480DAAAE222E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */,
-				6DEF69AF9EE2416B980963C6 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */,
-				267663F142D64A95944615F4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */,
-				D736E54D04484DA8AAD649DE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */,
-				0B692A473EF3429A833D7730 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */,
-				1854B66FEB00410BB8AECF09 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */,
-				5836455165894835BDDDED32 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */,
-				46E0EA704C3D49ECAD7A8CB9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */,
-				AB02E7A7E3554A36AD95F104 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */,
-				8E03FADFBE5B4BFFBEA684DD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */,
-				19351A257AD8487AAC630595 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */,
-				61DEFDAE9F4F40E0A84F0497 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */,
-				47312400C619467EAB65ABF4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */,
-				A376264A183F44C3BE99A810 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */,
-				274BFDF24C8A44D19485097D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */,
-				A486596785854655A0BB18F1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */,
-				8FA32E9194CB430792BC25F1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */,
-				65EF1A41D78D494FA89C240D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */,
-				01B478A7AEEB4B7AADC7B661 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */,
-				9C4E2EB1289D4B46B887AF3E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */,
-				A6B5F465A3594BC9949D5CC8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */,
-				D14DAED6C9E44252A72C37AC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */,
-				C3C81D1DEAD9461ABFD94F51 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */,
-				9D19741CE5F9459AB08FDE36 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */,
-				8E278D7E4C19402B8A4A9154 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */,
-				3E9E77628ED74BFFBFA30A85 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */,
-				E73E13ADCB314D4EBBC8A681 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */,
-				F15AEF1FB3B347D1915C7DE7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */,
-				58A9AED4ACE14DC1B59E8760 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */,
-				797E76153B5C4A57A84CCD37 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */,
-				8236F1F3602D41869101E305 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */,
-				D55065A5E8CB4C1CA2FFE0B0 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */,
-				466DA26D8C67494B8EAB812D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */,
-				34306087FCE741928BFA3C4C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */,
-				B6B8107F440145719F477B01 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */,
-				238F71DD566B4973B6C7626B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */,
-				549DE3A7AC9D47D79D928577 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */,
-				F69F98555D404A71A79A52C5 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */,
-				68D1736B3AC84531AC495505 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */,
-				0505D75770BC4F4F8B75300C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */,
-				74ABC8C2984741C299426002 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */,
-				E604CB47971441A9BECEF4AA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */,
-				3A6643B5F09446FB9C87441D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */,
-				C3CF9A460B60467D8D9A5E17 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */,
-				02CFD62B5C9944DCBB289335 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */,
-				9063DC0050214A7BADE3DDC8 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */,
-				69DC62E4BF4C4030BF031AAD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */,
-				8593B47F70604892A6071211 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */,
-				DD056728D15749BBBA7ABBED /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */,
-				699AD35E64B24B77BF5B500D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */,
-				F85C2A7D49BC4E5B8CCDD063 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */,
-				AE6F676ECEF3493399E5F729 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */,
-				0FC15A0DCBB040D892B6B34B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */,
-				B285515C167D4C849FA285B7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */,
-				7F079743D8CD4705A813A9E2 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */,
-				875808CAA58C4D06B6CFCFB4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */,
-				977B014A247D4C17823F3D14 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */,
-				52612C73F90D4A54BCBB78E4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */,
-				C86599CC1A5C4EB5A7023DBE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */,
-				AEBF921F4F93443EAA0D3E1C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */,
-				D3E90E2FAEF94C2FB7092555 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */,
-				5436A399D5F647DC8A4E0C3C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */,
-				B89CFE19528A48CBACD2724D /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */,
+				80BB29B543B84D3480199E7D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.c */,
+				F55CBF787F234B10B47DEAD7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_dummy.c */,
+				299D97354AE44D638526944A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/pitchshift_rubberband.c */,
+				AC8C19E0510F4868913EE3EA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/rubberband_utils.c */,
+				0BD7CBDD7F5548D4AC16AC49 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_dummy.c */,
+				E0A21B9E4D0F4A66AC8E69E1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/effects/timestretch_rubberband.c */,
+				D2B82462CE8F4DAA82F9EABD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.c */,
+				416BDD1911684CF08E28D5EE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.c */,
+				D8DB12173A914138B73EA269 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/audio_unit.c */,
+				2B42A926992F4DB1A486F9C9 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/ioutils.c */,
+				C2E6EAA6A07449059CABA53A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.c */,
+				2CF25543D2A2436A8EB48EAE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_apple_audio.c */,
+				AE0E1A743EE243F0900CD185 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_flac.c */,
+				5C51B12C6A0C4CC2A4982E7D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_sndfile.c */,
+				C4A300C8C3B34D1E8B4E8B71 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_vorbis.c */,
+				450CAF5973E44B7484ABE69C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink_wavwrite.c */,
+				B87F82A9C4D242EC9BCECD52 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.c */,
+				5736E239B526411F9A7CB649 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_apple_audio.c */,
+				0773A678B18D4F4387279262 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_avcodec.c */,
+				E2400FB8BE0245D5A6E7F543 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_sndfile.c */,
+				339235997771472EA90CA527 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source_wavread.c */,
+				584B5BFAB3804714934FDA7D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/utils_apple_audio.c */,
+				4E03CAC174044B2FAD40DB45 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.c */,
+				29F1C38917ED4E6FBD3B4B18 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/mathutils.c */,
+				431E5CEB04E0433694A69255 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.c */,
+				2D52FEA7E006464CA6A40E66 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.c */,
+				77E73EDAF61F422F986D724D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.c */,
+				0882A2D67370453787119E24 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/peakpicker.c */,
+				195A1717A61E4DDF8E25602E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.c */,
+				4B5F480AC7AE4702987B9C39 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchfcomb.c */,
+				85F891A273FD41ECB071F63C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchmcomb.c */,
+				1C301DE255ED416CB1F53275 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchschmitt.c */,
+				BCD2BD637BA94B85880A7C66 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchspecacf.c */,
+				A318B7CFB40D41CAB6B9B349 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyin.c */,
+				7382FB08359748388D073AFC /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfast.c */,
+				65D2827F903E44F8B23DFA6E /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitchyinfft.c */,
+				4950EF890741416FA95160FD /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.c */,
+				898E813B10AA42149E9F29A4 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.c */,
+				5AA1F2B739C64A02B9D6BF7C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_accelerate.c */,
+				CA738FA086094A9CAC5E0C36 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_fftw.c */,
+				EA22A276338646D5ABAEBFBF /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ipp.c */,
+				F872E7EA7E264CAB9D168D00 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_ooura.c */,
+				FAB19E4129824724B92C2863 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct_plain.c */,
+				CBC63B03FA574CB6BF61E285 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.c */,
+				EBBF63F39CEA43D88103D2AE /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.c */,
+				E964D81F43AE416896F08C27 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.c */,
+				1F1FC0FA3A1A4B4F994954DA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.c */,
+				810FE4878D0546449D8FAB21 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/ooura_fft8g.c */,
+				4E00F52648EC42A4B2E21EFA /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.c */,
+				946E3BA148B24D43A41372B7 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.c */,
+				36E29BA0E0CA412E9EDCB431 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/statistics.c */,
+				84395B9DABCB4C8AAD8A6779 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.c */,
+				7274AD42B65247DC8FF1282C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.c */,
+				42798F15069B4C1EB3B3DF8A /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.c */,
+				721CD98FAF724E43A9F0A706 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/beattracking.c */,
+				AB724BC641DE4EE783CAD963 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.c */,
+				27904F8000CD4492B4446F16 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.c */,
+				F274C0365D384D4CAF09359C /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.c */,
+				C1703FDFA2A045EC96446035 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.c */,
+				397C48B307264E75B93D5A25 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.c */,
+				6371B7C790044D0A8A54F28D /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.c */,
+				8A3DD7FFA46C438C80F73961 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/hist.c */,
+				E369D0A00D4744A496DA1367 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.c */,
+				B18FB25D95484B7085707B06 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.c */,
+				D04B27125FD84410B19DEB4B /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/scale.c */,
+				3809175A1983493F9D970FC3 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/strutils.c */,
+				D617AA8E6D9F4C92B583F3A1 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/windll.c */,
+				43EB44FE29B34FAD974BE342 /* /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.c */,
+				976F615FFD0443D899DE3A30 /* /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3C915B64C5E43AB917DB8D0 /* PBXTargetDependency */ = {
+		BB50DF089D954EF882ED871D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F97EB5417F0AA0808A5833 /* ZERO_CHECK */;
+			targetProxy = E547A0F1B2254DA7861A4BE8 /* PBXContainerItemProxy */;
+		};
+		BD25574DFC15430FA5EB8DE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 613F5E9CC5812D797DCD8199 /* bpm_core */;
-			targetProxy = 58E94239E9074353B5A55756 /* PBXContainerItemProxy */;
+			targetProxy = C38B9550070B431581C3AD1F /* PBXContainerItemProxy */;
 		};
-		D085A7AD0ACE49558A0D9B38 /* PBXTargetDependency */ = {
+		E4B268CCD9E746C7A505381D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F0F97EB5417F0AA0808A5833 /* ZERO_CHECK */;
-			targetProxy = F361783E15524B118977631F /* PBXContainerItemProxy */;
-		};
-		F5158E52A3E24CEF84664898 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0F97EB5417F0AA0808A5833 /* ZERO_CHECK */;
-			targetProxy = 7765CE5C71154DA8A634ABD5 /* PBXContainerItemProxy */;
+			targetProxy = 20470582D55742C09BB78960 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CA021ABCA48474BAE40A32C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "x86_64 arm64";
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
-			};
-			name = MinSizeRel;
-		};
-		1C49BFAB79C74A2CA4E86398 /* RelWithDebInfo */ = {
+		07D346FB950E4CC0BB5E6508 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2CA4749EA8764F3D8F9A2FFA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		42ED26C3653841F383F15F02 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (x86_64,arm64);
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/Release${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/build/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio","/Users/joel/Documents/GitHub/realtime-bpm/core/include","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu11' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = bpm_core;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build/bpm_core.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		501F0A3E2DBF4B639B7E5CF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		5163572562674DF688E95FC2 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6BB9E44127D7492E8489F623 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "x86_64 arm64";
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
-			};
-			name = RelWithDebInfo;
-		};
-		7CD8B42679F343EAB30AD6AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "x86_64 arm64";
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
-			};
-			name = Release;
-		};
-		A93BA3DA4B114893842B38E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		BEE7C6837910458B946739F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C0850FEEA0A646EBA0A4A3A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C17084CB19234F3CACE5F4E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "x86_64 arm64";
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
-			};
-			name = Debug;
-		};
-		C302C141D4E14788B2913DA4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (x86_64,arm64);
+				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
 				EXECUTABLE_PREFIX = lib;
@@ -879,41 +670,31 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		CC6A868D6D914768818F29FC /* Debug */ = {
+		3A9C5E8807B74E86AEF587D5 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (x86_64,arm64);
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/Debug${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/build/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio","/Users/joel/Documents/GitHub/realtime-bpm/core/include","$(inherited)");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   '-std=gnu11' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = bpm_core;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build/bpm_core.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		D227A9D9A2E64B008CFC3640 /* RelWithDebInfo */ = {
+		430705048A1A47679DAA063A /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (x86_64,arm64);
+				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
 				EXECUTABLE_PREFIX = lib;
@@ -939,7 +720,27 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		F4BE05A9A06C46D191D5844E /* RelWithDebInfo */ = {
+		437653C238434FB9AD3DC521 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		504FA9364CA84CA2B18D1656 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -959,54 +760,257 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
+		51BE2DD416194E41B79DB922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/build/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio","/Users/joel/Documents/GitHub/realtime-bpm/core/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu11' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bpm_core;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build/bpm_core.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		79A4F6DAD2CC43B593646619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D183C5F75C446A5A00E4F82 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
+			};
+			name = MinSizeRel;
+		};
+		8AB3BB2116994A14862050FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AAF46F92858F4130995713C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
+			};
+			name = Release;
+		};
+		BCCBE6E660504DF1866CCC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C345278982AD4BF9A0450551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
+			};
+			name = Debug;
+		};
+		DA4E1A9A2EE74363952393A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = iphonesimulator;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E0ADA24C01F14A059CD89FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/build/src","/Users/joel/Documents/GitHub/realtime-bpm/core/aubio","/Users/joel/Documents/GitHub/realtime-bpm/core/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   '-std=gnu11' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bpm_core;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/build/bpm_core.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F1DAC00386594577944D8504 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB7102FDA1824F84A3D1112A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1492F6EAF3CF47B18A757753 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		362941B079E44BAE9D8BA876 /* Build configuration list for PBXProject "bpm_core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A93BA3DA4B114893842B38E0 /* Debug */,
-				501F0A3E2DBF4B639B7E5CF3 /* Release */,
-				5163572562674DF688E95FC2 /* MinSizeRel */,
-				F4BE05A9A06C46D191D5844E /* RelWithDebInfo */,
+				C345278982AD4BF9A0450551 /* Debug */,
+				AAF46F92858F4130995713C2 /* Release */,
+				7D183C5F75C446A5A00E4F82 /* MinSizeRel */,
+				DA4E1A9A2EE74363952393A6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3C99D3ED862B42EEA1CB3953 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		6A27869396844BE89B7E9884 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE7C6837910458B946739F1 /* Debug */,
-				C0850FEEA0A646EBA0A4A3A4 /* Release */,
-				2CA4749EA8764F3D8F9A2FFA /* MinSizeRel */,
-				1C49BFAB79C74A2CA4E86398 /* RelWithDebInfo */,
+				BCCBE6E660504DF1866CCC02 /* Debug */,
+				79A4F6DAD2CC43B593646619 /* Release */,
+				F1DAC00386594577944D8504 /* MinSizeRel */,
+				504FA9364CA84CA2B18D1656 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6666189C8B7D4766A3227BE5 /* Build configuration list for PBXNativeTarget "bpm_core" */ = {
+		87DE3BB5CB9B4BB38646B0C0 /* Build configuration list for PBXNativeTarget "bpm_core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC6A868D6D914768818F29FC /* Debug */,
-				42ED26C3653841F383F15F02 /* Release */,
-				C302C141D4E14788B2913DA4 /* MinSizeRel */,
-				D227A9D9A2E64B008CFC3640 /* RelWithDebInfo */,
+				E0ADA24C01F14A059CD89FFC /* Debug */,
+				51BE2DD416194E41B79DB922 /* Release */,
+				07D346FB950E4CC0BB5E6508 /* MinSizeRel */,
+				430705048A1A47679DAA063A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F57375DB38E24E289CEE86FB /* Build configuration list for PBXProject "bpm_core" */ = {
+		C56D7E79DDB84194938134A3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C17084CB19234F3CACE5F4E7 /* Debug */,
-				7CD8B42679F343EAB30AD6AB /* Release */,
-				0CA021ABCA48474BAE40A32C /* MinSizeRel */,
-				6BB9E44127D7492E8489F623 /* RelWithDebInfo */,
+				FB7102FDA1824F84A3D1112A /* Debug */,
+				8AB3BB2116994A14862050FF /* Release */,
+				3A9C5E8807B74E86AEF587D5 /* MinSizeRel */,
+				437653C238434FB9AD3DC521 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B14605EF40F94F0086617BD7 /* Project object */;
+	rootObject = 5E0C8FD89EE941C9B30DF3B4 /* Project object */;
 }

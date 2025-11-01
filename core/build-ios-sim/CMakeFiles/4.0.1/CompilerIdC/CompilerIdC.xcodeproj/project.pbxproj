@@ -90,8 +90,8 @@
 				
 				
 				
-				
-				SDKROOT = "iphoneos";
+				MACOSX_DEPLOYMENT_TARGET = "13.0";
+				SDKROOT = "iphonesimulator";
 			};
 			name = Debug;
 		};

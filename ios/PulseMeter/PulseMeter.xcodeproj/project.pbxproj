@@ -29,9 +29,30 @@
 		5D3C3F202EB55BB4001BD2FF /* PulseMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulseMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5D8C9EAF2EB6063F0035BC2D /* Exceptions for "PulseMeter" folder in "PulseMeterTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Audio/libbpm_core.a,
+			);
+			target = 5D3C3F152EB55BB4001BD2FF /* PulseMeterTests */;
+		};
+		5D8C9EB02EB6063F0035BC2D /* Exceptions for "PulseMeter" folder in "PulseMeterUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Audio/libbpm_core.a,
+			);
+			target = 5D3C3F1F2EB55BB4001BD2FF /* PulseMeterUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5D3C3F082EB55BB1001BD2FF /* PulseMeter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5D8C9EAF2EB6063F0035BC2D /* Exceptions for "PulseMeter" folder in "PulseMeterTests" target */,
+				5D8C9EB02EB6063F0035BC2D /* Exceptions for "PulseMeter" folder in "PulseMeterUITests" target */,
+			);
 			path = PulseMeter;
 			sourceTree = "<group>";
 		};
@@ -78,6 +99,7 @@
 				5D3C3F082EB55BB1001BD2FF /* PulseMeter */,
 				5D3C3F192EB55BB4001BD2FF /* PulseMeterTests */,
 				5D3C3F232EB55BB4001BD2FF /* PulseMeterUITests */,
+				5D5B8A4A2EB625DF00B0DFC7 /* Frameworks */,
 				5D3C3F072EB55BB1001BD2FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +112,13 @@
 				5D3C3F202EB55BB4001BD2FF /* PulseMeterUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5B8A4A2EB625DF00B0DFC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,7 +426,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PulseMeter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdC/EagerLinkingTBDs/Debug-iphoneos",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdC",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdCXX/EagerLinkingTBDs/Debug-iphoneos",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdCXX",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/joel/Documents/GitHub/realtime-bpm/core/include/**",
+					"/Users/joel/Documents/GitHub/realtime-bpm/core/src/**",
+					"/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/**",
+				);
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -407,10 +448,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseMeter/Audio",
+					"$(PROJECT_DIR)/core/build-ios-sim/Release-iphoneos",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiptoodeus.PulseMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/PulseMeter/PulseMeter-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,7 +472,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PulseMeter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdC/EagerLinkingTBDs/Debug-iphoneos",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdC",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdCXX/EagerLinkingTBDs/Debug-iphoneos",
+					"$(PROJECT_DIR)/core/build-ios-sim/CMakeFiles/4.0.1/CompilerIdCXX",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/joel/Documents/GitHub/realtime-bpm/core/include/**",
+					"/Users/joel/Documents/GitHub/realtime-bpm/core/src/**",
+					"/Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/**",
+				);
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,10 +494,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseMeter/Audio",
+					"$(PROJECT_DIR)/core/build-ios-sim/Release-iphoneos",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiptoodeus.PulseMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/PulseMeter/PulseMeter-Bridging-Header.h\n";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +517,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseMeter/Audio",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiptoodeus.PulseMeterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -470,6 +539,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseMeter/Audio",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiptoodeus.PulseMeterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +559,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseMeter/Audio",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiptoodeus.PulseMeterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +579,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulseMeter/Audio",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiptoodeus.PulseMeterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
