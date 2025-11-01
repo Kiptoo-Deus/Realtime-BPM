@@ -1,0 +1,3 @@
+/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/bpm_core.dir
+/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/ALL_BUILD.dir
+/Users/joel/Documents/GitHub/realtime-bpm/core/build-ios-sim/CMakeFiles/ZERO_CHECK.dir

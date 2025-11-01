@@ -5,13 +5,13 @@
 extern "C" {
 #endif
 
-void bpm_init(int sample_rate, int buffer_size); //I'm initializing the bpm detector
-void bpm_process(float* samples, int length);
-float bpm_get_estimate(void);
-void bpm_cleanup(void);
+void bpm_init(int samplerate);
+float bpm_process(const float* samples, int length);
+void bpm_reset(void);
+void bpm_terminate(void);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif
+#endif 

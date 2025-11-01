@@ -5,14 +5,35 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/core/include",
-                "${workspaceFolder}"
+                "${workspaceFolder}/core/aubio/src"
             ],
             "defines": [],
             "macFrameworkPath": [],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "macos-clang-arm64"
+            "intelliSenseMode": "${default}"
+        },
+        {
+            "name": "iOS",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/core/include",
+                "${workspaceFolder}/core/aubio/src"
+            ],
+            "defines": [
+                "TARGET_OS_IOS=1"
+            ],
+            "compilerPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-arm64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4
