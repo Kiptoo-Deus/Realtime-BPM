@@ -15,6 +15,12 @@ Built natively for:
 
 ---
 
+
+
+https://github.com/user-attachments/assets/43482cec-ac55-4def-ae46-67d227951f82
+
+
+
 ## 🧩 Architecture
 
 Mic Input
