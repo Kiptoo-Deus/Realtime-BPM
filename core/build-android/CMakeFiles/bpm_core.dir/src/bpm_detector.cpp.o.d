@@ -1,0 +1,35 @@
+CMakeFiles/bpm_core.dir/src/bpm_detector.cpp.o: \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/src/bpm_detector.cpp \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/include/bpm_detector.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/aubio.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/types.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fvec.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/cvec.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/lvec.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/fmat.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/musicutils.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/vecutils.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/resampler.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/filter.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/biquad.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/a_weighting.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/temporal/c_weighting.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/fft.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/dct.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/phasevoc.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/filterbank_mel.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/mfcc.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/specdesc.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/awhitening.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/spectral/tss.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/pitch/pitch.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/onset/onset.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/tempo/tempo.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/notes/notes.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/source.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/io/sink.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/sampler.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/synth/wavetable.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/parameter.h \
+  /Users/joel/Documents/GitHub/realtime-bpm/core/aubio/src/utils/log.h
