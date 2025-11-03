@@ -1,0 +1,3 @@
+/Users/joel/Documents/GitHub/realtime-bpm/core/build-android-arm64/CMakeFiles/bpm_core.dir
+/Users/joel/Documents/GitHub/realtime-bpm/core/build-android-arm64/CMakeFiles/edit_cache.dir
+/Users/joel/Documents/GitHub/realtime-bpm/core/build-android-arm64/CMakeFiles/rebuild_cache.dir
